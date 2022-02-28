@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { GobalState } from "../../../GobalState";
-
+import React from 'react'
 const LoadMore = () => {
     const state = useContext(GobalState);
     const [page, setPage] = state.ProductsApi.page;

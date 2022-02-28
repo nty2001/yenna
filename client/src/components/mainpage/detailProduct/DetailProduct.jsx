@@ -1,6 +1,7 @@
 import { useContext, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { GobalState } from "../../../GobalState";
+import React from 'react'
 import { Link } from "react-router-dom";
 const DetailProduct = () => {
   const params = useParams();

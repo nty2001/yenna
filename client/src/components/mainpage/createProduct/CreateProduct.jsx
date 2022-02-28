@@ -1,6 +1,7 @@
 import { useContext, useState,useEffect } from "react";
 import { GobalState } from "../../../GobalState";
 import Loading from "../loading/Loading";
+import React from 'react'
 import axios from "axios";
 import { useNavigate,useParams } from "react-router-dom";
 const CreateProduct = () => {

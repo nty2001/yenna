@@ -1,3 +1,4 @@
+import React from 'react'
 import { useContext,useState } from "react";
 import { GobalState } from "../../GobalState";
 import Menu from "./icon/bars-solid.svg";

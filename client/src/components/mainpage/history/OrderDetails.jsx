@@ -1,7 +1,7 @@
 import { GobalState } from "../../../GobalState";
 import { useContext, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-
+import React from 'react'
 const OrderDetalis = () => {
   const params = useParams();
   const state = useContext(GobalState);
