@@ -24,7 +24,7 @@ const Page = () => {
       <Route path="/login" element={isLogged ? <NotFound /> : <Login />} />
       <Route
         path="/register"
-        element={isLogged ? <Register /> : <NotFound />}
+        element={isLogged ? <NotFound /> :<Register />}
       />
       <Route
         path="/category"
