@@ -1,0 +1,21 @@
+.Cart{
+    position: relative;
+    border: 1px solid #ccc;
+}
+.Cart .number{
+    display: flex;
+    align-items: center;
+}
+.Cart .number span{
+    padding: 0 20px;
+    color:rgb(255, 102, 0);
+}
+ .Cart .number button{
+    height:40px;
+    width:40px;
+    border:1px solid #555;
+}
+.total{
+    display: flex;
+    justify-content:space-between;
+}

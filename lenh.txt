@@ -1,0 +1,8 @@
+npm init -y
+npm i bcrypt cloudinary concurrently cookie-parser cors dotenv express-fileupload jsonwebtoken mongoose colors@1.4.0 nodemon // lk csdl
+controller ->userCtrl   // chứa những biến của router
+middleware ->auth.js    // chứa admin & người dùng
+models.js -> userModel.js  //  Tạo kiểu dữ liệu
+routers ->Router.js         // điều hướng 
+server.js                   // lk với mogodb postmain
+"dev":"nodemon server.js"

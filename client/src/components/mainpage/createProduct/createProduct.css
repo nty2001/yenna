@@ -1,0 +1,98 @@
+.create__product{
+    width:100%;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.create__product .upload{
+    max-width: 450px;
+    height:500px;
+    width:100%;
+    border:1px solid #ccc;
+    padding:15px;
+    margin:20px;
+    position: relative;
+
+}
+.create__product .upload input{
+    position: relative;
+    width:100%;
+    height:100%;
+    outline:none;
+   
+}
+.create__product .upload input:before{
+content:'+';
+position: absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;
+font-size:20rem;
+margin:auto;
+text-align:center;
+color:rgb(255, 38, 0);
+background-image: repeating-linear-gradient(45deg,pink,yellow 10%,green 20%);
+
+}
+.create__product .upload img{
+    position: absolute;
+    top: 0;
+    height:100%;
+    left: 0;
+    object-fit:cover;
+    background-image:radial-gradient(ellipse at top,pink,transparent);
+}
+.create__product .upload span{
+    position: absolute;
+    color:rgb(247, 38, 38);
+    top:-1%;
+    right:-18px;
+    border-radius: 50%;
+    border:1px solid #ccc;
+    height:20px;
+    width:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+    background-image:radial-gradient(ellipse at top,rgb(153, 95, 105),transparent); 
+}
+.create__product form{
+    min-width: 200px;
+    max-width:500px;
+    
+    margin:20px;
+}
+.create__product form .row{
+    width:100%;
+    margin:20px 0;
+}
+.create__product form .row input,
+.create__product form .row select,
+.create__product form .row textarea{
+  width:100%;
+    min-width: 40px;
+    padding:5px;
+}
+textarea{
+    resize:none;
+    min-height:100px!important;
+}
+.create__product form button{
+width:256px;
+height: 40px;
+background-image: repeating-linear-gradient(45deg,red,yellow 10%,green);
+color: #fff;
+text-transform: uppercase;
+font-size:20px;
+}
+.create__product form button:active{
+    transform:scale(1.5);
+}
+.loadingup{
+    position:absolute;
+    top:0;
+}
+
